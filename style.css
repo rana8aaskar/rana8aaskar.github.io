@@ -1,0 +1,47 @@
+#main-component{
+    background-color: antiquewhite;
+
+
+}
+#nav-bar{
+    background-color: #1D1C1C
+}
+#footer{
+    background-color: #ece8d8
+}
+#hover
+{
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+        .box {
+            background-color: #65526557;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+    
+        .box:hover {
+            transform: translateY(-5px);
+        }
+    
+        .box.clickable {
+            cursor: pointer;
+        }
+    
+        .box.clickable:active {
+            transform: scale(0.95);
+        }
+        .box h2 {
+            margin-top: 0;
+        }
+    
+        .box p {
+            margin-bottom: 0;
+        }
+    
+}
